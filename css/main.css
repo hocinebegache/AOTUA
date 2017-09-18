@@ -508,6 +508,12 @@ section.third-section .right {
     flex: 2;
     background-color: rgba(222, 211, 184, 0);
 }
+
+.juridique p {
+    text-align: justify;
+    margin-top: -15px;
+}
+
 /********************************************events****************************************/
 
 table.events {
