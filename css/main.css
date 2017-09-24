@@ -1,5 +1,6 @@
 body {
 	background-color: #eee;
+	color: rgb(79,79,79);
 }
 
 ul {
@@ -24,7 +25,9 @@ h5, h6 {
 }
 
 p {
+	font-size: 0.86em;
 	text-align: justify;
+	color: rgb(79,79,79);
 }
 
 section {
@@ -509,8 +512,9 @@ section.third-section .right {
     background-color: rgba(222, 211, 184, 0);
 }
 
-.juridique p {
+.evenments p {
     text-align: justify;
+    margin-top: -5px;
 }
 
 /********************************************events****************************************/
