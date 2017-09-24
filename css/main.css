@@ -333,7 +333,7 @@ section.first-section.etusa.sntf h1:before {
     transform: scale(0.8);
 }
 
-section.first-section.etusa.etac h1:before {
+section.first-section.etusa h1.etac:before {
     content: url(../img/etac.png) !important;
     position: absolute;
     width: 19px !important;
