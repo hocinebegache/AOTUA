@@ -1,5 +1,6 @@
 body {
 	background-color: #eee;
+	color: rgb(79,79,79);
 }
 
 ul {
@@ -24,7 +25,9 @@ h5, h6 {
 }
 
 p {
+	font-size: 0.86em;
 	text-align: justify;
+	color: rgb(79,79,79);
 }
 
 section {
@@ -330,8 +333,8 @@ section.first-section.etusa.sntf h1:before {
     transform: scale(0.8);
 }
 
-section.first-section.etusa.etac h1:before {
-    content: url(../img/etac.png);
+section.first-section.etusa h1.etac:before {
+    content: url("../img/ETAC.png") !important;
     position: absolute;
     width: 19px !important;
     height: 50px !important;
@@ -508,6 +511,12 @@ section.third-section .right {
     flex: 2;
     background-color: rgba(222, 211, 184, 0);
 }
+
+.evenments p {
+    text-align: justify;
+    margin-top: -5px;
+}
+
 /********************************************events****************************************/
 
 table.events {
