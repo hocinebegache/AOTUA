@@ -334,7 +334,7 @@ section.first-section.etusa.sntf h1:before {
 }
 
 section.first-section.etusa h1.etac:before {
-    content: url(../img/etac.png) !important;
+    content: url("../img/ETAC.png") !important;
     position: absolute;
     width: 19px !important;
     height: 50px !important;
