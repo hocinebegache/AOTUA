@@ -248,13 +248,20 @@ section.first-section.etusa {
 
 section.first-section.etusa ul {
 	max-width: 768px;
-	padding-left: 40px; !important;
+	padding-left: 0px; !important;
 }
 
+section.first-section.etusa ul li {
+	margin-left: 20px;
+	position: relative;
+}
 section.first-section.etusa ul li:before {
 	content: "•";
-	font-size: 14pt;
+	font-size: 2.3em;
 	margin-right: 20px;
+	line-height: 10px;
+	position: absolute;
+	transform: translate(-20px, 5px);
 }
 
 section.first-section.etusa h4 {
@@ -267,15 +274,21 @@ section.first-section.etusa ul {
 }
 section.first-section li {
 	width: 100%;
-	margin: 10px 0;
+	margin: 10px 0px;
 	display: flex;
 }
 section.first-section.etusa ul li span.left {
-	padding: 10px;
+/*	padding: 10px;
 	background-color: #CABB9F;
 	box-sizing: border-box;
 	margin-right: 5px;
-	flex: 1;
+	flex: 1;*/
+	padding: 10px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+    margin-right: 5px;
+    flex: 1;
+    border-radius: 2px
 }
 
 ul.undotted li:before {
@@ -283,10 +296,15 @@ ul.undotted li:before {
 }
 
 section.first-section.etusa ul li span.right {
-	padding: 10px;
+/*	padding: 10px;
 	background-color: #DED3B8;
 	box-sizing: border-box;
-	flex: 4;
+	flex: 4;*/
+    padding: 10px;
+    background-color: #ececec;
+    box-sizing: border-box;
+    flex: 4;
+    border-radius: 2px;
 }
 
 section.first-section.etusa h1 {
@@ -305,6 +323,7 @@ section.first-section.etusa h1 {
 
 section.first-section.etusa ul.technic {
 	max-width: 100%;
+	overflow: hidden;
 }
 
 
@@ -514,7 +533,7 @@ section.third-section .right {
 
 .evenments p {
     text-align: justify;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 
 /********************************************events****************************************/
@@ -531,7 +550,8 @@ table.events tr {
 }
 
 table.events tr:nth-child(odd) {
-	background: #DED4B9;
+/*	background: #DED4B9;*/
+background: #ececec;
 }
 
 
@@ -579,7 +599,8 @@ table.events tr td ul li:nth-child(1) {
 }
 
 table.events tr td ul.biege li {
-	background-color: #DED4B9;
+/*	background-color: #DED4B9;*/
+background: #ececec;
 }
 
 table.events tr td:nth-child(1) img {
