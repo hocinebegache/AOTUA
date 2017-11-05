@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Template</title>
+    <title>AOTU-A SETRAM</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,6 @@
 
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
 <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,46 +57,26 @@
         </div>
     </header>
     <div class="container main-content">
+        <section class="first-section etusa ">
+            <h1 class="setram">Tramway SETRAM</h1>
+            <p><b>SETRAM</b> est la société chargée de l'exploitation et de la maintenance des Tramways Algériens.   Elle exploite actuellement les Tramways d'Alger, Oran et Constantine pour une période de 10 ans.</p>
+            <p>Elle à été crée en septembre 2012 d’un accord entre l’établissement de transport urbain et suburbain d’Alger (ETUSA), l’entreprise du métro d’Alger (EMA) (51%), et le groupe (RATPDEV) (49%)</p>
+            <p>La cérémonie de pose de la première pierre du tramway moderne d’Alger a eu lieu le 5 juillet 2006, en présence du président de république Abdelaziz Bouteflika. Le projet a été lancé et financé par l’état Algérien.</p>
+            <p>Le Ministère des Transports a délégué la maîtrise d’ouvrage à Entreprise du Métro d’Alger (EMA), qui elle était assistée par Systra et RATP Développement. Le contrat de réalisation a été remporté par le consortium international Mediterail formé par le Français Alstom pour le système de transports et l’Italien Todini et l’entreprise Algérienne ETRHB Haddad pour le génie civil, aux dépens d’un groupement autour de l’Allemand Siemens. Le contrat entre l’EMA et Mediterail, portant sur un montant d’environ 356 millions d’euros, a été signé le 29 juin 2006. La direction générale de la SETRAM se trouve dans la capitale Alger.  La SETRAM est née d’un accord entre l’Entreprise du Métro d’Alger (EMA) et le groupe RATP</p>
 
-        <section class="first-section">
-        	<div class="container">
-        		<div class="col-md-6">
-        			<h4>Contactez Nous</h4>
-        			<h5 style="margin-top: 20px;">ADRESSE :</h5>
-					AOTU-A <br>
-					Chemin de la Wilaya N°13, 
-					Quatre Chemins Kouba - Alger <br>
-					Tél: +213.21.28.83.28 - Fax: +213.21.28.83.54 <br>
-					<a href="http://www.aotu-a.dz">www.aotu-a.dz</a>
-        		</div>
-        		<div class="col-md-6">
-        			<form action="" method="POST"  style="margin-top: 20px;">
-<?php 
-$str = "";
-if(isset($_POST['email']) == true) {
-    $to = $_POST['email'];
-    $header = "aotua@mail.fr";
-    $objet = $_POST['objet'];
-    $message = $_POST['message'];
-
-    mail($to, $objet, $message, $header);
-
-    $str = "<div class='btn btn-success' style='width: 100%; display: block; text-align: center;'> Votre Email est enovyer avec sucess</div>";
-}
-?>
-        				<label for="email">Email : </label><br>
-        				<input type="email" name="email"><br>
-        				<label for="objet">Objet : </label><br>
-        				<input type="text" name="objet"><br>
-        				<label for="objet">Message : </label><br>
-        				<textarea name="message" id="" cols="30" rows="10"></textarea><br>
-        				<input type="submit" value="Enovyer" class="btn btn-primary">
-        			</form>
-        		</div>
-                <?php echo $str; ?>
-        	</div>
+            <h4>Fiche technique</h4>
+                <ul class="technic">
+                    <li><span class="left">Nom de l’Entreprise </span><span class="right">Société d’Exploitation de Transport de Tramway d’Alger; par abréviation SETRAM</span></li>
+                    <li><span class="left">Date de Création </span><span class="right">-    Création en septembre 2012.</span></li>
+                    <li><span class="left">Statut juridique </span><span class="right">SPA ; Société par Action</span></li>
+                    <li><span class="left">Adresse </span><span class="right">Chemin de la Wilaya N°13 ; Quatre Chemins Kouba Alger</span></li>
+                    <li><span class="left">Secteur d’activité </span><span class="right">Chargée de l'exploitation et de la maintenance des Tramways Algériens
+                    .</span></li>
+                    <li><span class="left">Financement</span><span class="right">-  Le projet à été finance par l’état Algérien d’environ 356 millions d’euro à été signé le 29 juin 2006  </span></li>
+                    <li><span class="left">Télefax </span><span class="right">Tél : 021 68 88 52   – Fax : 021 68 86 04</span></li>
+                </ul>      
+<img src="img/Tramway.jpg" class="img-responsive" style="width: 600px; height: auto; margin: 0 auto;" alt="">
         </section>
-
     </div>
     <div class="container">
         <footer>
@@ -105,7 +84,7 @@ if(isset($_POST['email']) == true) {
                 <nav>
                     <ul class="navbar">
                         <li class="list-element"><a href="index.html">Accueil</a></li>
-                        <li class="list-element"><a href="juridique.html">Cadre Juridique</a></li>
+                        <li class="list-element"><a href="#">Cadre Juridique</a></li>
                         <li class="list-element">
                         <a href="#">Réseaux Membres</a>
                             <ul>
@@ -119,7 +98,6 @@ if(isset($_POST['email']) == true) {
                             </ul>
                         </li>
                         <li class="list-element"><a href="evenements.html">Evènements</a></li>
-                        <li class="list-element"><a href="projet.html">Projets</a></li>
                         <li class="list-element"><a href="contact.html">Contacts</a></li>
                     </ul>
                 </nav>
@@ -132,7 +110,6 @@ if(isset($_POST['email']) == true) {
     </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <script src="js/lightbox.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

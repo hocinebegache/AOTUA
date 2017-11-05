@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Template</title>
+    <title>AOTU-A ENTMV</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,6 @@
 
     <!-- Custom CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
 <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,46 +57,27 @@
         </div>
     </header>
     <div class="container main-content">
+        <section class="first-section etusa ">
+            <h1 class="entmv">Le transport maritime ENTMV</h1>
+<p>L’Entreprise Nationale de Transport Maritime de Voyageurs a été créée par décret n° 87.155 le 14 Juillet 1987.</p>
+<p>Le 07 Avril 1991, L’ENTMV prend le statut d’Entreprise Publique Economique sous l’égide du « HOLDING SERVICE ».L’ENMTV dispose en propriété de 03 Navires et procède d’un navire en saison estivale pour renforcer sa flotte avec un personnel professionnel navigant compétant (hôtesse, steward…).</p>
 
-        <section class="first-section">
-        	<div class="container">
-        		<div class="col-md-6">
-        			<h4>Contactez Nous</h4>
-        			<h5 style="margin-top: 20px;">ADRESSE :</h5>
-					AOTU-A <br>
-					Chemin de la Wilaya N°13, 
-					Quatre Chemins Kouba - Alger <br>
-					Tél: +213.21.28.83.28 - Fax: +213.21.28.83.54 <br>
-					<a href="http://www.aotu-a.dz">www.aotu-a.dz</a>
-        		</div>
-        		<div class="col-md-6">
-        			<form action="" method="POST"  style="margin-top: 20px;">
-<?php 
-$str = "";
-if(isset($_POST['email']) == true) {
-    $to = $_POST['email'];
-    $header = "aotua@mail.fr";
-    $objet = $_POST['objet'];
-    $message = $_POST['message'];
 
-    mail($to, $objet, $message, $header);
 
-    $str = "<div class='btn btn-success' style='width: 100%; display: block; text-align: center;'> Votre Email est enovyer avec sucess</div>";
-}
-?>
-        				<label for="email">Email : </label><br>
-        				<input type="email" name="email"><br>
-        				<label for="objet">Objet : </label><br>
-        				<input type="text" name="objet"><br>
-        				<label for="objet">Message : </label><br>
-        				<textarea name="message" id="" cols="30" rows="10"></textarea><br>
-        				<input type="submit" value="Enovyer" class="btn btn-primary">
-        			</form>
-        		</div>
-                <?php echo $str; ?>
-        	</div>
+
+            <h4>Fiche technique</h4>
+                <ul class="technic">
+                    <li><span class="left">Nom de l’Entreprise </span><span class="right">L’entreprise de transport Algérien par câble (ETAC) </span></li>
+                    <li><span class="left">Date de Création </span><span class="right">-Par  Décret n° 87-155 DU 14 Juillet 1987</span></li>
+                    <li><span class="left">Statut juridique </span><span class="right">EPE ,Entreprise Publique Economique</span></li>
+                    <li><span class="left">Secteur d’activité </span><span class="right">Transport de passagers par bateau</span></li>
+                    <li><span class="left">Adresse </span><span class="right">5, 6 Rue J.Nehru, Alger</span></li>
+                    <li><span class="left">Télefax </span><span class="right">Tél : 021 42 33 01 / 02-021 42 37 36 – Fax : +213(0) 42 33 53</span></li>
+                    <li><span class="left">Internet </span><span class="right"><a href="http://www.algerieferries.dz">www.algerieferries.dz</a></span></li>
+                    <li><span class="left">Email </span><span class="right">algerieferries@algerieferries.com</span></li>
+                </ul>      
+<img src="img/NavetENTMV.jpg" class="img-responsive" style="width: 600px; height: auto; margin: 0 auto;" alt="">
         </section>
-
     </div>
     <div class="container">
         <footer>
@@ -105,7 +85,7 @@ if(isset($_POST['email']) == true) {
                 <nav>
                     <ul class="navbar">
                         <li class="list-element"><a href="index.html">Accueil</a></li>
-                        <li class="list-element"><a href="juridique.html">Cadre Juridique</a></li>
+                        <li class="list-element"><a href="#">Cadre Juridique</a></li>
                         <li class="list-element">
                         <a href="#">Réseaux Membres</a>
                             <ul>
@@ -119,7 +99,6 @@ if(isset($_POST['email']) == true) {
                             </ul>
                         </li>
                         <li class="list-element"><a href="evenements.html">Evènements</a></li>
-                        <li class="list-element"><a href="projet.html">Projets</a></li>
                         <li class="list-element"><a href="contact.html">Contacts</a></li>
                     </ul>
                 </nav>
@@ -132,7 +111,6 @@ if(isset($_POST['email']) == true) {
     </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <script src="js/lightbox.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
